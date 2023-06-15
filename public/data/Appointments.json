@@ -10,23 +10,22 @@
     {
       "id": 2,
       "petName": "Goldie",
-    "petOwner": "Barot Bellingham",
-    "aptDate": "2017-07-22 15:50",
-    "aptNotes": "This Goldfish has some weird spots in the belly"
+      "petOwner": "Barot Bellingham",
+      "aptDate": "2017-07-22 15:50",
+      "aptNotes": "This Goldfish has some weird spots in the belly"
     },
     {
       "id": 3,
       "petName": "Mitten",
-    "petOwner": "Hillary Goldwyn",
-    "aptDate": "2017-07-21 9:15",
-    "aptNotes": "Cat has excessive hairballs"
+      "petOwner": "Hillary Goldwyn",
+      "aptDate": "2017-07-21 9:15",
+      "aptNotes": "Cat has excessive hairballs"
     },
     {
-      
-    "petName": "Buffy",
-    "petOwner": "Hassum Harrod",
-    "aptDate": "2017-07-20 15:30",
-    "aptNotes": "This Chihuahua has not eaten for three days and is lethargic",
+      "petName": "Buffer",
+      "petOwner": "Hassum Harrod",
+      "aptDate": "2017-07-20 15:30",
+      "aptNotes": "This Chihuahua has not eaten for three days and is lethargic",
       "id": 4
     }
   ]

@@ -10,32 +10,32 @@
                 <form id="aptForm" @submit.prevent="requestAdd">
               <div class="form-group form-row">
                 <label class="col-md-2 col-form-label text-md-right" for="petName">Pet Name</label>
-                <div class="col-md-10">
+                <div class="col-md-10" style="margin: auto;">
                   <input
                     type="text"
                     class="form-control"
                     name="petName"
                     id="petName"
                     placeholder="Pet's Name"
-                    v-model="formData.petName"
+                    v-model="formData.petName" 
                   >
                 </div>
               </div>
     
               <div class="form-group form-row">
                 <label class="col-md-2 col-form-label text-md-right" for="ownerName">Pet Owner</label>
-                <div class="col-md-10">
+                <div class="col-md-10" style="margin: auto;">
                   <input type="text" class="form-control" id="ownerName" placeholder="Owner's Name"  v-model="formData.petOwner">
                 </div>
               </div>
     
-              <div class="form-group form-row" >
+              <div class="form-group form-row "  >
                 <label class="col-md-2 col-form-label text-md-right" for="aptDate"> Date</label>
-                <div class="col-md-4"  >
+                <div class="col-md-4" style="margin: auto;" >
                   <input type="date" class="form-control" id="aptDate"  v-model="formData.aptDate">
                 </div>
                 <label class="col-md-2 col-form-label text-md-right" for="aptTime">Time</label>
-                <div class="col-md-4" >
+                <div class="col-md-4" style="margin: auto;" >
                   <input type="time" class="form-control" name="aptTime" id="aptTime"  v-model="formData.aptTime">
                 </div>
               </div>
@@ -57,7 +57,7 @@
     
               <div class="form-group form-row mb-0" >
                 <div class="offset-md-2 col-md-10" >
-                  <button style="margin-left: 40mm;" type="submit" class="btn btn-primary d-block ml-auto">Add Appointment</button>
+                  <button style="margin: auto;" type="submit" class="btn btn-primary d-block ml-auto">Add Appointment</button>
                 </div>
               </div>
             </form>
