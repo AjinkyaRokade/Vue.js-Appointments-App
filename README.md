@@ -1,4 +1,4 @@
-# flashcard-app
+# appointments-app
 
 ## Project setup
 ```
